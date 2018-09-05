@@ -2,7 +2,7 @@
 
 $name = trim( explode( '?', $_SERVER['REQUEST_URI'], 2 )[0], '/' );
 $name = str_replace( '.', '', $name );
-$file = '404';
+$file = '40s4';
 
 if ( $name !== 'index' && is_file( __dir__ . "/$name.php" ) ) {
 	$file = $name;
